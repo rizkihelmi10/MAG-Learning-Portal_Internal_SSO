@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "671525535687",
+    "project_id": "mabacat2",
+    "storage_bucket": "mabacat2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671525535687:android:9660c348d81e75a49da3e2",
+        "android_client_info": {
+          "package_name": "com.smartlab.mabacat2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671525535687-pnhla0d9v0tk5ftknj7i911lgl5qiqb7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartlab.mabacat2",
+            "certificate_hash": "8a07a1a43bad86558bd6bb0e498b529381dc9686"
+          }
+        },
+        {
+          "client_id": "671525535687-pcmib37t33d5ejpb5onfnndq55vahb05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1B3uvQ_u2VAve45BUPbDqVazO37txrOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671525535687-pcmib37t33d5ejpb5onfnndq55vahb05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

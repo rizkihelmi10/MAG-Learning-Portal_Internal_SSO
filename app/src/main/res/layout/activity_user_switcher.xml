@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/loginCard"
+    app:cardCornerRadius="@dimen/loginCardRadius"
+    android:elevation="5dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/loginViewsMargin"
+    android:layout_marginBottom="@dimen/loginViewsMargin"
+    android:background="@color/colorPrimary">
+
+
+
+        <LinearLayout
+            style="@style/linearParent"
+            android:layout_gravity="center"
+            android:padding="@dimen/loginViewsMargin">
+
+            <TextView
+                android:id="@+id/time"
+                style="@style/headerTextPrimary"
+                android:textColor="@color/black"
+                android:text="Time"
+                android:layout_marginTop="@dimen/loginViewsMargin" />
+
+            <TextView
+                android:id="@+id/Choose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please Choose your Role:"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_horizontal">
+
+            </TextView>
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/externaluserbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="External user"
+                android:layout_gravity="center_horizontal"/>
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/internaluser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Internal User"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
